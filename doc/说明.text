@@ -4,4 +4,4 @@
 持久化层框架:JPA
 
 1、创建数据库，执行SQL
-2、MySQL版本自行再pom.xml中更改，并配置properties中的spring.datasource.*
+2、MySQL版本自行在pom.xml中更改，并配置properties中的spring.datasource.*
