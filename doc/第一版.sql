@@ -1,22 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : 10.215.50.107
- Source Server Type    : MySQL
- Source Server Version : 50641
- Source Host           : 10.215.50.107:3306
- Source Schema         : springboot
-
- Target Server Type    : MySQL
- Target Server Version : 50641
- File Encoding         : 65001
-
- Date: 27/10/2018 17:37:19
-*/
-
-SET NAMES utf8mb4;
-SET FOREIGN_KEY_CHECKS = 0;
-
 -- ----------------------------
 -- Table structure for hibernate_sequence
 -- ----------------------------
@@ -40,7 +21,7 @@ CREATE TABLE `users`  (
   `PASSWORD` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `AGE` int(11) NOT NULL,
   PRIMARY KEY (`ID`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+)
 
 -- ----------------------------
 -- Records of users
